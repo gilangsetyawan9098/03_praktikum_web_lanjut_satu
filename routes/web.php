@@ -30,7 +30,7 @@ Route::prefix('produk')->group(function () {
 });
 
 //nomor 3
-Route::get('/news', [NewsController::class, 'news']);
+Route::get('/news',[NewsController::class, 'news']);
 Route::get('/news/{String}', [NewsController::class, 'newsString']);
 
 //nomor 4 
